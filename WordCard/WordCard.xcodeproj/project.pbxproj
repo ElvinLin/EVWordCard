@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E53B6F651B70EEBC005FC416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E53B6F641B70EEBC005FC416 /* main.m */; };
+		E53B6F681B70EEBC005FC416 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E53B6F671B70EEBC005FC416 /* AppDelegate.m */; };
+		E53B6F6B1B70EEBC005FC416 /* WordCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E53B6F691B70EEBC005FC416 /* WordCard.xcdatamodeld */; };
+		E53B6F6E1B70EEBC005FC416 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53B6F6D1B70EEBC005FC416 /* ViewController.m */; };
+		E53B6F711B70EEBC005FC416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53B6F6F1B70EEBC005FC416 /* Main.storyboard */; };
+		E53B6F731B70EEBC005FC416 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53B6F721B70EEBC005FC416 /* Images.xcassets */; };
+		E53B6F761B70EEBC005FC416 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53B6F741B70EEBC005FC416 /* LaunchScreen.xib */; };
+		E53B6F821B70EEBC005FC416 /* WordCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E53B6F811B70EEBC005FC416 /* WordCardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E53B6F7C1B70EEBC005FC416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E53B6F571B70EEBC005FC416 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E53B6F5E1B70EEBC005FC416;
+			remoteInfo = WordCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E53B6F5F1B70EEBC005FC416 /* WordCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53B6F631B70EEBC005FC416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53B6F641B70EEBC005FC416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E53B6F661B70EEBC005FC416 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E53B6F671B70EEBC005FC416 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E53B6F6A1B70EEBC005FC416 /* WordCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordCard.xcdatamodel; sourceTree = "<group>"; };
+		E53B6F6C1B70EEBC005FC416 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E53B6F6D1B70EEBC005FC416 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E53B6F701B70EEBC005FC416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E53B6F721B70EEBC005FC416 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E53B6F751B70EEBC005FC416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E53B6F7B1B70EEBC005FC416 /* WordCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53B6F801B70EEBC005FC416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53B6F811B70EEBC005FC416 /* WordCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordCardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E53B6F5C1B70EEBC005FC416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53B6F781B70EEBC005FC416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E53B6F561B70EEBC005FC416 = {
+			isa = PBXGroup;
+			children = (
+				E53B6F611B70EEBC005FC416 /* WordCard */,
+				E53B6F7E1B70EEBC005FC416 /* WordCardTests */,
+				E53B6F601B70EEBC005FC416 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E53B6F601B70EEBC005FC416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E53B6F5F1B70EEBC005FC416 /* WordCard.app */,
+				E53B6F7B1B70EEBC005FC416 /* WordCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E53B6F611B70EEBC005FC416 /* WordCard */ = {
+			isa = PBXGroup;
+			children = (
+				E53B6F661B70EEBC005FC416 /* AppDelegate.h */,
+				E53B6F671B70EEBC005FC416 /* AppDelegate.m */,
+				E53B6F6C1B70EEBC005FC416 /* ViewController.h */,
+				E53B6F6D1B70EEBC005FC416 /* ViewController.m */,
+				E53B6F6F1B70EEBC005FC416 /* Main.storyboard */,
+				E53B6F721B70EEBC005FC416 /* Images.xcassets */,
+				E53B6F741B70EEBC005FC416 /* LaunchScreen.xib */,
+				E53B6F691B70EEBC005FC416 /* WordCard.xcdatamodeld */,
+				E53B6F621B70EEBC005FC416 /* Supporting Files */,
+			);
+			path = WordCard;
+			sourceTree = "<group>";
+		};
+		E53B6F621B70EEBC005FC416 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E53B6F631B70EEBC005FC416 /* Info.plist */,
+				E53B6F641B70EEBC005FC416 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E53B6F7E1B70EEBC005FC416 /* WordCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E53B6F811B70EEBC005FC416 /* WordCardTests.m */,
+				E53B6F7F1B70EEBC005FC416 /* Supporting Files */,
+			);
+			path = WordCardTests;
+			sourceTree = "<group>";
+		};
+		E53B6F7F1B70EEBC005FC416 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E53B6F801B70EEBC005FC416 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E53B6F5E1B70EEBC005FC416 /* WordCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53B6F851B70EEBC005FC416 /* Build configuration list for PBXNativeTarget "WordCard" */;
+			buildPhases = (
+				E53B6F5B1B70EEBC005FC416 /* Sources */,
+				E53B6F5C1B70EEBC005FC416 /* Frameworks */,
+				E53B6F5D1B70EEBC005FC416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordCard;
+			productName = WordCard;
+			productReference = E53B6F5F1B70EEBC005FC416 /* WordCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E53B6F7A1B70EEBC005FC416 /* WordCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53B6F881B70EEBC005FC416 /* Build configuration list for PBXNativeTarget "WordCardTests" */;
+			buildPhases = (
+				E53B6F771B70EEBC005FC416 /* Sources */,
+				E53B6F781B70EEBC005FC416 /* Frameworks */,
+				E53B6F791B70EEBC005FC416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E53B6F7D1B70EEBC005FC416 /* PBXTargetDependency */,
+			);
+			name = WordCardTests;
+			productName = WordCardTests;
+			productReference = E53B6F7B1B70EEBC005FC416 /* WordCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E53B6F571B70EEBC005FC416 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Elvin;
+				TargetAttributes = {
+					E53B6F5E1B70EEBC005FC416 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E53B6F7A1B70EEBC005FC416 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E53B6F5E1B70EEBC005FC416;
+					};
+				};
+			};
+			buildConfigurationList = E53B6F5A1B70EEBC005FC416 /* Build configuration list for PBXProject "WordCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E53B6F561B70EEBC005FC416;
+			productRefGroup = E53B6F601B70EEBC005FC416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E53B6F5E1B70EEBC005FC416 /* WordCard */,
+				E53B6F7A1B70EEBC005FC416 /* WordCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E53B6F5D1B70EEBC005FC416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53B6F711B70EEBC005FC416 /* Main.storyboard in Resources */,
+				E53B6F761B70EEBC005FC416 /* LaunchScreen.xib in Resources */,
+				E53B6F731B70EEBC005FC416 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53B6F791B70EEBC005FC416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E53B6F5B1B70EEBC005FC416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53B6F6B1B70EEBC005FC416 /* WordCard.xcdatamodeld in Sources */,
+				E53B6F681B70EEBC005FC416 /* AppDelegate.m in Sources */,
+				E53B6F6E1B70EEBC005FC416 /* ViewController.m in Sources */,
+				E53B6F651B70EEBC005FC416 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53B6F771B70EEBC005FC416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53B6F821B70EEBC005FC416 /* WordCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E53B6F7D1B70EEBC005FC416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E53B6F5E1B70EEBC005FC416 /* WordCard */;
+			targetProxy = E53B6F7C1B70EEBC005FC416 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E53B6F6F1B70EEBC005FC416 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E53B6F701B70EEBC005FC416 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E53B6F741B70EEBC005FC416 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E53B6F751B70EEBC005FC416 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E53B6F831B70EEBC005FC416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E53B6F841B70EEBC005FC416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E53B6F861B70EEBC005FC416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E53B6F871B70EEBC005FC416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E53B6F891B70EEBC005FC416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WordCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordCard.app/WordCard";
+			};
+			name = Debug;
+		};
+		E53B6F8A1B70EEBC005FC416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WordCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordCard.app/WordCard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E53B6F5A1B70EEBC005FC416 /* Build configuration list for PBXProject "WordCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53B6F831B70EEBC005FC416 /* Debug */,
+				E53B6F841B70EEBC005FC416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E53B6F851B70EEBC005FC416 /* Build configuration list for PBXNativeTarget "WordCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53B6F861B70EEBC005FC416 /* Debug */,
+				E53B6F871B70EEBC005FC416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E53B6F881B70EEBC005FC416 /* Build configuration list for PBXNativeTarget "WordCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53B6F891B70EEBC005FC416 /* Debug */,
+				E53B6F8A1B70EEBC005FC416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E53B6F691B70EEBC005FC416 /* WordCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E53B6F6A1B70EEBC005FC416 /* WordCard.xcdatamodel */,
+			);
+			currentVersion = E53B6F6A1B70EEBC005FC416 /* WordCard.xcdatamodel */;
+			path = WordCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E53B6F571B70EEBC005FC416 /* Project object */;
+}
